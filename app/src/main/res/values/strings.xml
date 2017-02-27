@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UFC Counter</string>
+    <string name="reset">RESET</string>
+    <string name="submission_attempts">Sub. attempts</string>
+    <string name="takedowns">Takedowns</string>
+    <string name="knockdowns">Knockdowns</string>
+    <string name="significant_strikes">Sig. strikes</string>
+    <string name="total_strikes">Total strikes</string>
+
+    <string name="blue_corner">Blue corner</string>
+    <string name="red_corner">Red corner</string>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/fighter_corner_red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/red_corner"
+        android:textColor="@color/red_corner"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/fighter_name_red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Michael Bisping"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                style="@style/ufc_score"
+                android:id="@+id/total_strikes_score_red"/>
+
+            <Button
+                android:id="@+id/total_strikes_red"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="onClickTotalStrikesRed"
+                android:textSize="@dimen/button_score_size"
+                android:text="@string/total_strikes"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                style="@style/ufc_score"
+                android:id="@+id/significant_strikes_score_red"/>
+
+            <Button
+                android:id="@+id/significant_strikes_red"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="onClickSignificantStrikesRed"
+                android:textSize="@dimen/button_score_size"
+                android:text="@string/significant_strikes"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                style="@style/ufc_score"
+                android:id="@+id/knockdowns_score_red"/>
+
+            <Button
+                android:id="@+id/knockdowns_red"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="onClickKnockdownsRed"
+                android:textSize="@dimen/button_score_size"
+                android:text="@string/knockdowns"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                style="@style/ufc_score"
+                android:id="@+id/takedowns_score_red"/>
+
+            <Button
+                style="@style/ufc_button"
+                android:id="@+id/takedowns_red"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="onClickTakedownsRed"
+                android:text="@string/takedowns"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                style="@style/ufc_score"
+                android:id="@+id/submissions_attempts_score_red"/>
+
+            <Button
+                style="@style/ufc_button"
+                android:id="@+id/submissions_attempts_red"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="onClickSubmissionsAttemptsRed"
+                android:text="@string/submission_attempts"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
