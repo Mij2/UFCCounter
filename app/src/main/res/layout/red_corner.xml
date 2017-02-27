@@ -11,6 +11,8 @@
         android:layout_height="wrap_content"
         android:text="@string/red_corner"
         android:textColor="@color/red_corner"
+        android:background="@color/red_corner_bg"
+        android:layout_margin="@dimen/margin_title"
         android:gravity="center"/>
 
     <TextView
@@ -18,6 +20,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="Michael Bisping"
+        android:background="@color/fighter_bg"
+        android:layout_marginLeft="@dimen/margin_title"
+        android:layout_marginRight="@dimen/margin_title"
         android:gravity="center"/>
 
     <LinearLayout

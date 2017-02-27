@@ -19,6 +19,8 @@
         <item name="android:textSize">@dimen/scores_size</item>
         <item name="android:text">0</item>
         <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/score_shape</item>
+        <item name="android:layout_margin">6dp</item>
 
     </style>
 </resources>

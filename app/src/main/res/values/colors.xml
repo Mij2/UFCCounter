@@ -4,6 +4,14 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="red_corner">#b71c1c</color>
+    <color name="red_corner">#6c1414</color>
+    <color name="red_corner_bg">#e57373</color>
+
     <color name="blue_corner">#303f9f</color>
+    <color name="blue_corner_bg">#8c9eff</color>
+
+    <color name="fight_card">#ffffff</color>
+    <color name="fighter_bg">#d1bca0</color>
+
+
 </resources>
